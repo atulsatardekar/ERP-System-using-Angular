@@ -1,0 +1,9 @@
+.img-fluid{
+
+    height: 200px !important;
+    width: 100% !important;
+    margin-top: 0% !important;
+}
+.fixed-height {
+    height: 400px; /* Set your desired fixed height here */
+}

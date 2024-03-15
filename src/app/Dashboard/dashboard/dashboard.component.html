@@ -1,0 +1,145 @@
+<header>
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-top"
+  >
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold" href="home"
+        ><i class="fa fa-cart-shopping fs-2" style="color: #f54242"></i
+        ><span class="textBlur">ERP System</span></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link  fw-semibold text-uppercase me-1 text-danger"
+              routerLink=""
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              home
+            </a>
+          </li>
+
+          <a
+            class="nav-link fw-semibold text-uppercase text-black me-1"
+            routerLink="products"
+            
+          >
+            product
+          </a>
+
+          <li class="nav-item">
+            <a
+              class="nav-link cart fw-semibold text-uppercase text-black me-1"
+              href="orders"
+            >
+              <i class="fa fa-shopping-cart fs-5" style="color: #202122"></i>
+              
+            </a>
+            <!-- User icon -->
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link fw-semibold text-uppercase text-black me-1"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#userModal"
+            >
+              <i class="fas fa-user" style="color: #202122"></i>
+            </a>
+          </li>
+          <!-- User Modal -->
+          <div
+            class="modal fade"
+            id="userModal"
+            tabindex="-1"
+            aria-labelledby="userModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="userModalLabel">
+                    User Information
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <form [formGroup]="userForm" (ngSubmit)="addUsers()">
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="username" class="form-label"
+                        >Set Username</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="username"
+                        placeholder="Enter username"
+                        formControlName="Username"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="password" class="form-label"
+                        >Set Password</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="password"
+                        placeholder="Enter password"
+                        formControlName="Password"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="contact" class="form-label"
+                        >Contact Number</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="contact"
+                        placeholder="Enter contact number"
+                        formControlName="contactNumber"
+                      />
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="submit"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Save
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>

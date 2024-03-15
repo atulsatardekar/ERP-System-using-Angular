@@ -1,0 +1,214 @@
+{
+  "newProducts": [
+    {
+      "image": "https://filpz.com/cdn/shop/products/5S_W_1_800x.jpg?v=1604725464",
+      "ratings": 5,
+      "title": "iphone 5s",
+      "price": "24,000.00",
+      "categoryId": 1
+    },
+    {
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSMveA9lSFf1crQeDX76pJBIZeC1CBehvSRM-TtiykwJ7uBc7bDkt6mtGXDzR6iikR3sX40jKg",
+      "ratings": 5,
+      "title": "Vivo Y200e 5G",
+      "price": "19,999",
+      "categoryId": 1
+    },
+    {
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1664009491/Croma%20Assets/Communication/Mobiles/Images/243460_0_n90peu.png?tr=w-1000",
+      "ratings": 5,
+      "title": "iphone 13",
+      "price": "79,000.00",
+      "categoryId": 1
+    },
+    {
+      "image": "https://fujifilmxindia.com/wp-content/uploads/2022/07/Fujifilm-X-T30-II-Camera-Body-With-XF18-55mm-Lens-–-Black-1-600x600.jpg",
+      "ratings": 5,
+      "title": "Fujifilm X-T30",
+      "price": "75,000.00",
+      "categoryId": 2
+    },
+    {
+      "image": "https://www.instax.in/cdn/shop/products/1_c5638151-a3b6-4168-85e0-60c8cfbf1ab0.jpg?v=1673867117",
+      "ratings": 5,
+      "title": "Instax Mini ",
+      "price": "15,999",
+      "categoryId": 2
+    },
+    {
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1670424134/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/224554_0_q430sr.png?tr=w-640",
+      "ratings": 5,
+      "title": "Nikon D7500",
+      "price": "84,999",
+      "categoryId": 2
+    },
+    {
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1686892427/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/267969_0_sfdpf0.png?tr=w-1000",
+      "ratings": 5,
+      "title": "Canon EOS 1500D ",
+      "price": "41,900.00",
+      "categoryId": 2
+    },
+    {
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1703082074/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/274328_0_axci32.png?tr=w-1000",
+      "ratings": 5,
+      "title": "Canon PowerShot V10",
+      "price": "24,990",
+      "categoryId": 2
+    },
+    {
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ6E7U-maP5VVLzebOSSODNXjF9inJoYxGlppQabUvBiBoVIxSEsa0ibPJkJBRpyl5_-Kvd2L8&usqp=CAE",
+      "ratings": 5,
+      "title": "Nikon Coolpix S9300",
+      "price": "17,999.00",
+      "categoryId": 2
+    },
+    {
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1709106342/Croma%20Assets/Communication/Mobiles/Images/305186_jo8oau.png?tr=w-640",
+      "ratings": 5,
+      "title": "SAMSUNG Galaxy M14 5G",
+      "price": "13,300.00",
+      "categoryId": 1
+    },
+    {
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1708671142/Croma%20Assets/Communication/Mobiles/Images/268869_0_kxmnjz.png?tr=w-640",
+      "ratings": 5,
+      "title": "SAMSUNG Galaxy S23 5G",
+      "price": "69,999.00",
+      "categoryId": 1
+    },
+    {
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a546elvcins/gallery/in-galaxy-a54-5g-sm-a546-sm-a546elvcins-thumb-537238973?imwidth=480",
+      "ratings": 5,
+      "title": "SAMSUNG Galaxy A54 5G",
+      "price": "33499.00",
+      "categoryId": 1
+    },
+    {
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697175643/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/302273_gjmw3u.png?tr=w-640",
+      "ratings": 5,
+      "title": "OnePlus Pad Go Wi-Fi+4G Android Table",
+      "price": "21,999.00",
+      "categoryId": 3
+    },
+    {
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1685967748/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/264261_zzl2aq.png?tr=w-1000",
+      "ratings": 5,
+      "title": "Apple iPad 10th Generation Wi-Fi ",
+      "price": "36,900.00",
+      "categoryId": 3
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRwYcYqclNXM_uN1l2jZsPcYm-ha2wl_LJVeSZjNSEvP4A8jCTqCNcsjL6hebqZegW0F139ehBD",
+      "ratings": 5,
+      "title": "Xiaomi Redmi Pad",
+      "price": "14,500",
+      "categoryId": 3
+    },
+    {
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRxNE0Lp48xTUnK_1zG5fHDkWQrnrA6Mpe56ZbNyyowh9cRSi_xdfWAjQDIVgv3gMJGU5zEjiMI",
+      "ratings": 5,
+      "title": "Honor Pad X8 10.1 inch FHD WiFi Tablet",
+      "price": "11,501",
+      "categoryId": 3
+    },
+    {
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRJ9zIerew4zSnGMU3sjiKoDyQ4860_VCJre7rl_35IkqnHAy7TlbNuDweN84zQIIVDFOOThfGp",
+      "ratings": 5,
+      "title": "Xiaomi Pad 6 8GB Ram",
+      "price": "24,000",
+      "categoryId": 3
+    },
+    {
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROrIKtwEV45dP4k86v-yZy5oyx6OmBhUVWy2EJMUCiR9RZefboGAcEkS6L1FUXlkJWar38KYUk",
+      "ratings": 5,
+      "title": "Lenovo Tab P12 Wi-Fi Android Tablet ZACH0009HK",
+      "price": "26,999",
+      "categoryId": 3
+    },
+    {
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTB1fEzlvNqAXuQPWVYYuhx53gvu1S7zVrUrm8liDx1rZQ5ycG8drQBeRwzhLd78J-xRRF9qxPz",
+      "ratings": 5,
+      "title": "Hp Intel Core I5 11th Gen - 8 Gb/512 Gb Ssd/Windows 11 Home 15s- Fr4000tu Thin And Light Laptop",
+      "price": "46,490",
+      "categoryId": 4
+    },
+    {
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRct8pjz3XR4VX0s2B1aPTw5LQ0KyxZhRhl5Ejw4dasQD3ksnleYTNTDOT0OvO2mMBDl7tI_C2F6Q",
+      "ratings": 5,
+      "title": "Apple MacBook Air M1",
+      "price": "78,990",
+      "categoryId": 4
+    },
+    {
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQTQ4-WenwIRunCGt5zDwq_ZUtlGEPhRbTUp3o01medtosa4W0mFGUaraqzIK6-SydxltdJIFI",
+      "ratings": 5,
+      "title": "ASUS VivoBook 15 HD Intel Celeron N4020, Thin and Light Laptop",
+      "price": "18,994",
+      "categoryId": 4
+    },
+    {
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSnsnbpCX_V-P61oPsWBhMD5Mpq2Z6PjYVnQ-GPnjtLFtlhb12XOWELcuI6Y7c",
+      "ratings": 5,
+      "title": "Acer Aspire Lite Core 512 Gb Ssd/Windows 11 Home Thin And Light Laptop",
+      "price": "29,990",
+      "categoryId": 4
+    },
+    {
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSHhnWh-eqYmVKIDexayKLi9AsXROHYoG3hRgfVqhjq0VbJDb3t-5Qa8Cfo9waFjiJkP24EueU",
+      "ratings": 5,
+      "title": "ASUS TUF Gaming F15 Laptop",
+      "price": "66,990",
+      "categoryId": 4
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS0UZpDifXF30zyFNGOGbaqs9L9nV2usDdCk6JSufFpJhosAUDl7lmTAz59q0G_aSjEJyEC5Go&usqp=CAE",
+      "ratings": 5,
+      "title": "ZEBRONICS PRO Series Y NBC 2S, Intel Core 11th Gen i5 Processor",
+      "price": "28,990",
+      "categoryId": 4
+    },
+    {
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRD7fwly4e5Edw6AFKyaIrTU3kN_I9mUUrdoDb1iznbSvm9be2QAukaRUHG6Q&usqp=CAE",
+      "ratings": 5,
+      "title": "ASUS Vivobook 16X (2022), AMD Ryzen 5 5600H, 16 (40.64 cms) FHD+, Thin and Laptop ",
+      "price": "55,500",
+      "categoryId": 4
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQDAJgvkRO3hGMGwRA_CnwXXeH06neVss6yxM-gdxQp0WvGp91W7bAMs7BIDaX74odsqkMKYk4Y",
+      "ratings": 5,
+      "title": "Dell Latitude 7430 Intel Core i7-1270P 14 Inches Notebook Laptop",
+      "price": "82,599",
+      "categoryId": 4
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": 1,
+      "name": "Mobile"
+    },
+    {
+      "categoryId": 2,
+      "name": "Camera"
+    },
+    {
+      "categoryId": 3,
+      "name": "Tablet"
+    },
+    {
+      "categoryId": 4,
+      "name": "Laptop"
+    }
+  ],
+  "login": 
+    {
+    "Username": "atul_s413",
+    "Password": "1234",
+    "contactNumber": "123456",
+    "CustId": 2
+  }
+ 
+
+ 
+}

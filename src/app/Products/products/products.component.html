@@ -1,0 +1,174 @@
+<section id="product">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="productHeading text-center">
+          <h2 class="mb-3">Exclusive Products</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div
+        [ngClass]="isSidePanelVisible ? 'col-lg-8' : 'col-12'"
+        class="col-12"
+      >
+        <div class="card">
+          <div class="card-header bg-primary">
+            <div class="row">
+              <div class="col-6">Product List</div>
+              <div class="col-6 text-end">
+                <button
+                  class="btn btn-sm btn-success float-end"
+                  (click)="openSidePanel()"
+                >
+                  New
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <!-- Product list -->
+            <div class="row">
+              <div
+                class="col-lg-3 col-md-6 col-sm-12"
+                *ngFor="let product of productsArray; let i = index"
+              >
+                <div class="box-shadow">
+                  <div class="card mt-2">
+                    <img
+                      class="img-fluid fixed-image-height"
+                      style="height: 200px"
+                      [src]="product.image"
+                      class="card-img-top"
+                      alt="Product Image"
+                    />
+                    <div class="card-body">
+                      <h5
+                        class="card-title"
+                        style="height: 3rem; overflow: hidden"
+                      >
+                        {{ product.name }}
+                      </h5>
+                      <p class="card-text"><span
+                        class="text-danger fw-semibold me-2"> ₹ {{product.price}}</span>
+                    <span class="text-success ms-2">35% Off</span></p>
+                 
+                      
+                      <div class="col-12">
+                        <label for="stockQuantity"
+                          >({{ product.stockQuantity }})</label
+                        >
+                      </div>
+                      <div class="row align-items-center">
+                        <div class="col-6">
+                            <i class="fa-solid fa-star-half-stroke" style="color: #f1f50f"></i>
+                            <span class="text-muted">(21)</span>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <!-- Edit button with icon -->
+                            <button class="btn btn-sm btn-warning mx-1" (click)="editProduct(i)">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <!-- Delete button with icon -->
+                            <button class="btn btn-sm btn-danger mx-1" (click)="deleteProduct(i)">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                            <!-- Add to Cart button with icon -->
+                            <button class="btn btn-sm btn-primary mx-1">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4" *ngIf="isSidePanelVisible">
+        <div class="card">
+          <div class="card-header bg-primary">
+            <div class="row">
+              <div class="col-6">New Product</div>
+              <div class="col-6 text-end">
+                <button
+                  class="btn btn-sm btn-success float-end"
+                  (click)="closeSidePanel()"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  [(ngModel)]="productObj.name"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-12">
+                <label for="category">Category</label>
+                <input
+                  type="text"
+                  [(ngModel)]="productObj.category"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-12">
+                <label for="price">Price</label>
+                <input
+                  type="number"
+                  [(ngModel)]="productObj.price"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-12">
+                <label for="stockQuantity">Stock Quantity</label>
+                <input
+                  type="number"
+                  [(ngModel)]="productObj.stockQuantity"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-12">
+                <label for="image">Image</label>
+                <!-- Input field for image selection -->
+                <input
+                  type="file"
+                  data-bs-toggle="modal"
+                  data-bs-target="#prescription"
+                  #fileInput
+                  (change)="fileSelect($event)"
+                  style="display: none;"
+                />
+                <button class="triggerbutton" (click)="fileInput.click()">
+                  Choose Image
+                </button>
+              </div>
+              <!-- Display the selected image -->
+              <div class="col-12 mt-3" *ngIf="imageSrc">
+                <img
+                  [src]="imageSrc.toString()"
+                  class="img-fluid"
+                  alt="Selected Image"
+                />
+              </div>
+            </div>
+            <!-- Buttons -->
+            <button class="btn btn-primary mt-3" (click)="addNewProduct()">
+              Add Product
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

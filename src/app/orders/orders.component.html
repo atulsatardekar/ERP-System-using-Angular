@@ -1,0 +1,50 @@
+<div class="container">
+    <h2>List of Orders</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Order ID</th>
+          <th scope="col">Customer Name</th>
+          <th scope="col">Order Date</th>
+          <th scope="col">Status</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orders">
+          <th scope="row">{{ order.orderId }}</th>
+          <td>{{ order.customerName }}</td>
+          <td>{{ order.orderDate }}</td>
+          <td>
+            <ng-container *ngIf="!order.isEditing; else editStatus">
+              {{ order.status }}
+            </ng-container>
+            <ng-template #editStatus>
+              <select class="form-select" [(ngModel)]="order.updatedStatus" (change)="updateOrderStatus(order)">
+                <option value="Shipped">Shipped</option>
+                <option value="Processing">Processing</option>
+                <option value="Delivered">Delivered</option>
+              </select>
+            </ng-template>
+          </td>
+          <td>
+            <button class="btn btn-link" (click)="viewOrderDetails(order)">
+              <i class="bi bi-eye"></i> <!-- Icon for view details -->
+            </button>
+            <button class="btn btn-link" (click)="toggleEditStatus(order)">
+              <i class="bi bi-pencil-square"></i> <!-- Icon for edit status -->
+            </button>
+            <button class="btn btn-link" (click)="deleteOrder(order)">
+              <i class="bi bi-trash"></i> <!-- Icon for delete -->
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+
+<!-- orders.component.html -->
+<div>
+  <h2>Orders Calendar View</h2>
+  <app-orders-calendar [orders]="orders"></app-orders-calendar>
+</div>

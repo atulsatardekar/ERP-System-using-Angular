@@ -1,0 +1,46 @@
+<section id="product">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="productHeading text-center">
+                    <h2 class="mb-3">Exclusive Products</h2> 
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li *ngFor="let category of categories" (click)="getAllProductsByCategory(category.categoryId)">
+                            <a href="#" class="m-4 text-decoration-none fw-semibold" [ngClass]="selectedCategory==category.categoryId ? 'text-danger' : 'text-black'">{{category.name}}</a>
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-md-4 col-sm-6 pt-1" *ngFor="let product of productsArray">
+                        <div class="box-shadow">
+                            <div class="card mt-2 h-100">
+                                <img class="img-fluid" style="height: 200px;" src="{{product.image}}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{product.title}}</h5>
+                                    <p class="card-text">
+                                        <span class="text-danger fw-semibold me-2">₹ {{product.price}}</span>
+                                        <span class="text-success ms-2">35% Off</span>
+                                    </p>
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+                                            <i class="fa-solid fa-star-half-stroke m-0" style="color: #f1f50f;"></i>
+                                            <span class="text-muted">(21)</span>
+                                        </div>
+                                        <div class="col-6 text-end">
+                                            <!-- Add to Cart icon -->
+                                            <button class="btn btn-sm btn-success">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
