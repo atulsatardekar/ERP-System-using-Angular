@@ -40,9 +40,9 @@ output images = ![IMG_4109](https://github.com/atulsatardekar/atulsatardekar/ass
 When a user clicks on a product, they will be redirected to the product component where mock data is displayed. Within this mock data, users can edit and delete existing entries. To add new data, users need to click on the 'New' button, which will open a side panel. From there, users can input and update card data as needed 
 
 ![IMG_4113](https://github.com/atulsatardekar/atulsatardekar/assets/133082140/6c9f3f7e-b2fe-4f60-96a5-6a005f38412a).
-When a user clicks on the cart icon, they are directed to the order component, where a list of orders is displayed. This list includes details such as order ID, customer name, order date, and status, utilizing mock data. Users have the capability to edit, update, and delete order statuses by clicking on the respective icons.
+When a user clicks on the cart icon, they are directed to the order component, where a list of orders is displayed. This list includes details such as order ID, customer name, order date, and status, utilizing mock data. Users have the capability to edit, update, and delete order statuses by clicking on the respective icons. and also implemented Angular's Full Calendar module is utilized to implement a calendar view showcasing orders scheduled for their expected delivery dates.
 ![IMG_4114](https://github.com/atulsatardekar/atulsatardekar/assets/133082140/3c592bfb-6674-41ad-bf98-9e7dc5701740)
-Finally, Angular's Full Calendar module is utilized to implement a calendar view showcasing orders scheduled for their expected delivery dates.
+Finally, I have developed an additional feature where users can create an account by clicking on the user icon. With this account, users can perform operations, and we can also implement features such as restricting access to certain features for users who haven't signed up for the app or don't have a user ID.
 
 ## Further help
 
